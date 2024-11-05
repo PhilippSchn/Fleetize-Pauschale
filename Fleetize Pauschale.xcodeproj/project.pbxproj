@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CDAA7262CDA9CD900957BAC /* Fleetize_PauschaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA7252CDA9CD900957BAC /* Fleetize_PauschaleApp.swift */; };
+		5CDAA7282CDA9CD900957BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA7272CDA9CD900957BAC /* ContentView.swift */; };
+		5CDAA72A2CDA9CDB00957BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA7292CDA9CDB00957BAC /* Assets.xcassets */; };
+		5CDAA72D2CDA9CDB00957BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA72C2CDA9CDB00957BAC /* Preview Assets.xcassets */; };
+		5CDAA7382CDA9CDC00957BAC /* Fleetize_PauschaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA7372CDA9CDC00957BAC /* Fleetize_PauschaleTests.swift */; };
+		5CDAA7422CDA9CDC00957BAC /* Fleetize_PauschaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA7412CDA9CDC00957BAC /* Fleetize_PauschaleUITests.swift */; };
+		5CDAA7442CDA9CDC00957BAC /* Fleetize_PauschaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA7432CDA9CDC00957BAC /* Fleetize_PauschaleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDAA7342CDA9CDC00957BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDAA71A2CDA9CD900957BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDAA7212CDA9CD900957BAC;
+			remoteInfo = "Fleetize Pauschale";
+		};
+		5CDAA73E2CDA9CDC00957BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDAA71A2CDA9CD900957BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDAA7212CDA9CD900957BAC;
+			remoteInfo = "Fleetize Pauschale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CDAA7222CDA9CD900957BAC /* Fleetize Pauschale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fleetize Pauschale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDAA7252CDA9CD900957BAC /* Fleetize_PauschaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleetize_PauschaleApp.swift; sourceTree = "<group>"; };
+		5CDAA7272CDA9CD900957BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CDAA7292CDA9CDB00957BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CDAA72C2CDA9CDB00957BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CDAA72E2CDA9CDB00957BAC /* Fleetize_Pauschale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fleetize_Pauschale.entitlements; sourceTree = "<group>"; };
+		5CDAA7332CDA9CDC00957BAC /* Fleetize PauschaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fleetize PauschaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDAA7372CDA9CDC00957BAC /* Fleetize_PauschaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleetize_PauschaleTests.swift; sourceTree = "<group>"; };
+		5CDAA73D2CDA9CDC00957BAC /* Fleetize PauschaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fleetize PauschaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDAA7412CDA9CDC00957BAC /* Fleetize_PauschaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleetize_PauschaleUITests.swift; sourceTree = "<group>"; };
+		5CDAA7432CDA9CDC00957BAC /* Fleetize_PauschaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleetize_PauschaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDAA71F2CDA9CD900957BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA7302CDA9CDC00957BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA73A2CDA9CDC00957BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDAA7192CDA9CD900957BAC = {
+			isa = PBXGroup;
+			children = (
+				5CDAA7242CDA9CD900957BAC /* Fleetize Pauschale */,
+				5CDAA7362CDA9CDC00957BAC /* Fleetize PauschaleTests */,
+				5CDAA7402CDA9CDC00957BAC /* Fleetize PauschaleUITests */,
+				5CDAA7232CDA9CD900957BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDAA7232CDA9CD900957BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA7222CDA9CD900957BAC /* Fleetize Pauschale.app */,
+				5CDAA7332CDA9CDC00957BAC /* Fleetize PauschaleTests.xctest */,
+				5CDAA73D2CDA9CDC00957BAC /* Fleetize PauschaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDAA7242CDA9CD900957BAC /* Fleetize Pauschale */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA7252CDA9CD900957BAC /* Fleetize_PauschaleApp.swift */,
+				5CDAA7272CDA9CD900957BAC /* ContentView.swift */,
+				5CDAA7292CDA9CDB00957BAC /* Assets.xcassets */,
+				5CDAA72E2CDA9CDB00957BAC /* Fleetize_Pauschale.entitlements */,
+				5CDAA72B2CDA9CDB00957BAC /* Preview Content */,
+			);
+			path = "Fleetize Pauschale";
+			sourceTree = "<group>";
+		};
+		5CDAA72B2CDA9CDB00957BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA72C2CDA9CDB00957BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CDAA7362CDA9CDC00957BAC /* Fleetize PauschaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA7372CDA9CDC00957BAC /* Fleetize_PauschaleTests.swift */,
+			);
+			path = "Fleetize PauschaleTests";
+			sourceTree = "<group>";
+		};
+		5CDAA7402CDA9CDC00957BAC /* Fleetize PauschaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA7412CDA9CDC00957BAC /* Fleetize_PauschaleUITests.swift */,
+				5CDAA7432CDA9CDC00957BAC /* Fleetize_PauschaleUITestsLaunchTests.swift */,
+			);
+			path = "Fleetize PauschaleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDAA7212CDA9CD900957BAC /* Fleetize Pauschale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDAA7472CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize Pauschale" */;
+			buildPhases = (
+				5CDAA71E2CDA9CD900957BAC /* Sources */,
+				5CDAA71F2CDA9CD900957BAC /* Frameworks */,
+				5CDAA7202CDA9CD900957BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fleetize Pauschale";
+			productName = "Fleetize Pauschale";
+			productReference = 5CDAA7222CDA9CD900957BAC /* Fleetize Pauschale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDAA7322CDA9CDC00957BAC /* Fleetize PauschaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDAA74A2CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize PauschaleTests" */;
+			buildPhases = (
+				5CDAA72F2CDA9CDC00957BAC /* Sources */,
+				5CDAA7302CDA9CDC00957BAC /* Frameworks */,
+				5CDAA7312CDA9CDC00957BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDAA7352CDA9CDC00957BAC /* PBXTargetDependency */,
+			);
+			name = "Fleetize PauschaleTests";
+			productName = "Fleetize PauschaleTests";
+			productReference = 5CDAA7332CDA9CDC00957BAC /* Fleetize PauschaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CDAA73C2CDA9CDC00957BAC /* Fleetize PauschaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDAA74D2CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize PauschaleUITests" */;
+			buildPhases = (
+				5CDAA7392CDA9CDC00957BAC /* Sources */,
+				5CDAA73A2CDA9CDC00957BAC /* Frameworks */,
+				5CDAA73B2CDA9CDC00957BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDAA73F2CDA9CDC00957BAC /* PBXTargetDependency */,
+			);
+			name = "Fleetize PauschaleUITests";
+			productName = "Fleetize PauschaleUITests";
+			productReference = 5CDAA73D2CDA9CDC00957BAC /* Fleetize PauschaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDAA71A2CDA9CD900957BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5CDAA7212CDA9CD900957BAC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5CDAA7322CDA9CDC00957BAC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5CDAA7212CDA9CD900957BAC;
+					};
+					5CDAA73C2CDA9CDC00957BAC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5CDAA7212CDA9CD900957BAC;
+					};
+				};
+			};
+			buildConfigurationList = 5CDAA71D2CDA9CD900957BAC /* Build configuration list for PBXProject "Fleetize Pauschale" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDAA7192CDA9CD900957BAC;
+			productRefGroup = 5CDAA7232CDA9CD900957BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDAA7212CDA9CD900957BAC /* Fleetize Pauschale */,
+				5CDAA7322CDA9CDC00957BAC /* Fleetize PauschaleTests */,
+				5CDAA73C2CDA9CDC00957BAC /* Fleetize PauschaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDAA7202CDA9CD900957BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDAA72D2CDA9CDB00957BAC /* Preview Assets.xcassets in Resources */,
+				5CDAA72A2CDA9CDB00957BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA7312CDA9CDC00957BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA73B2CDA9CDC00957BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDAA71E2CDA9CD900957BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDAA7282CDA9CD900957BAC /* ContentView.swift in Sources */,
+				5CDAA7262CDA9CD900957BAC /* Fleetize_PauschaleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA72F2CDA9CDC00957BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDAA7382CDA9CDC00957BAC /* Fleetize_PauschaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDAA7392CDA9CDC00957BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDAA7422CDA9CDC00957BAC /* Fleetize_PauschaleUITests.swift in Sources */,
+				5CDAA7442CDA9CDC00957BAC /* Fleetize_PauschaleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDAA7352CDA9CDC00957BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDAA7212CDA9CD900957BAC /* Fleetize Pauschale */;
+			targetProxy = 5CDAA7342CDA9CDC00957BAC /* PBXContainerItemProxy */;
+		};
+		5CDAA73F2CDA9CDC00957BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDAA7212CDA9CD900957BAC /* Fleetize Pauschale */;
+			targetProxy = 5CDAA73E2CDA9CDC00957BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CDAA7452CDA9CDC00957BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CDAA7462CDA9CDC00957BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5CDAA7482CDA9CDC00957BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fleetize Pauschale/Fleetize_Pauschale.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleetize Pauschale/Preview Content\"";
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-Pauschale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5CDAA7492CDA9CDC00957BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fleetize Pauschale/Fleetize_Pauschale.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleetize Pauschale/Preview Content\"";
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-Pauschale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5CDAA74B2CDA9CDC00957BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-PauschaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleetize Pauschale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fleetize Pauschale";
+			};
+			name = Debug;
+		};
+		5CDAA74C2CDA9CDC00957BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-PauschaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleetize Pauschale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fleetize Pauschale";
+			};
+			name = Release;
+		};
+		5CDAA74E2CDA9CDC00957BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-PauschaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fleetize Pauschale";
+			};
+			name = Debug;
+		};
+		5CDAA74F2CDA9CDC00957BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUPNP2D6MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSchneider.Fleetize-PauschaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fleetize Pauschale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDAA71D2CDA9CD900957BAC /* Build configuration list for PBXProject "Fleetize Pauschale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAA7452CDA9CDC00957BAC /* Debug */,
+				5CDAA7462CDA9CDC00957BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDAA7472CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize Pauschale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAA7482CDA9CDC00957BAC /* Debug */,
+				5CDAA7492CDA9CDC00957BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDAA74A2CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize PauschaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAA74B2CDA9CDC00957BAC /* Debug */,
+				5CDAA74C2CDA9CDC00957BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDAA74D2CDA9CDC00957BAC /* Build configuration list for PBXNativeTarget "Fleetize PauschaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAA74E2CDA9CDC00957BAC /* Debug */,
+				5CDAA74F2CDA9CDC00957BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDAA71A2CDA9CD900957BAC /* Project object */;
+}
